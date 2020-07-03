@@ -1,0 +1,13 @@
+baseURL = "https://hugotest.goadam.dev/"
+languageCode = "en-us"
+title = "goadam.dev"
+
+theme = "hyde-hyde"
+[params.social]
+gravatar = "adamplansky@gmail.com"
+
+[deployment]
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "goadam-dev"
+URL = "gs://hugotest.goadam.dev"
